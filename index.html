@@ -26,8 +26,19 @@
     <!-- menu styles -->
     <link rel="stylesheet" type="text/css" href="css/component.css" />
     <script src="js/modernizr-custom.js"></script>
-    <link rel="stylesheet"  href="https://use.typekit.net/gdg8keg.css">
+    <link rel="stylesheet" href="https://use.typekit.net/gdg8keg.css">
     <link rel="stylesheet" type="text/css" href="css/demo3.5f500338.css">
+    <link href="https://fonts.googleapis.com/css?family=Antic+Didone|Nunito+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <script>
+        document.documentElement.className = "js";
+        var supportsCssVars = function() {
+            var e, t = document.createElement("style");
+            return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e
+        };
+        supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+
+    </script>
     <script>
         document.documentElement.className = "js";
 
@@ -6307,7 +6318,7 @@
             </div>
         </nav>
         <div class="content" id="test">
-            <img class="" style="padding-left: 10%; padding-right: 10%; width:100%; height: 90%;" src="img/Cover.jpeg" />
+            <img class="" style="padding-left: 10%; <padding-rightx></padding-rightx>: 10%; width:100%; height: 90%;" src="img/Cover.jpeg" />
             <!-- Ajax loaded content here -->
         </div>
     </div>
@@ -6380,6 +6391,9 @@
         </defs>
         <circle class="cursor__inner" cx="10" cy="10" r="10"></circle>
     </svg>
+        <script src="js/charming.min.js"></script>
+		<script src="js/TweenMax.min.js"></script>
+		<script src="js/demo2.js"></script>
     <script src="js/index3.6a498fe3.js"></script>
 </body>
 

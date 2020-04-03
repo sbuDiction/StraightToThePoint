@@ -55,6 +55,7 @@ a:hover {
 
 .container {
 	overflow-y: auto;
+	overflow-x: hidden;
 	height: 100vh;
 }
 
@@ -236,8 +237,7 @@ a:hover {
 
 .products {
 	margin: 0;
-	padding: 2em;
-	text-align: center;
+	text-align: left;
 }
 
 .product {
@@ -299,6 +299,6 @@ body #cdawrap a:hover.carbon-poweredby {
 	body,
 	.container {
 		height: auto;
-		overflow: auto;
+		overflow: none;
 	}
 }
